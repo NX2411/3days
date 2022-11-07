@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+
+    #main {
+        width:1500px;
+        font-family: 'Nanum Myeongjo';
+    }
+    
+    #header{
+        width:1298px;
+        height: 200px;
+        margin: 50px 100px 20px 100px;
+    }
+    
+    .roundlogo{
+        float: left;
+    }
+    
+    .longlogo{
+        float: right;
+    }
+    
+    #navigation{
+        width:1298px;
+        height: 50px;
+        margin: 0px 100px 50px 100px;
+
+    }
+    
+    .menu{
+        width: 322.5px;
+        height: 50px;
+        float: left;
+        padding-top: 20px;
+        text-align: center;
+        border:1px solid;
+        background-color:#6C7FBD;
+        color:#FFF;
+        font-family: 'Nanum Myeongjo';
+        font-size: 20px;
+        transition-duration: 0.2s;
+    }
+    
+    .menu:hover {
+        background-color:#6EA0D4;
+    }
+    
+    .section1{
+        width:1298px;
+        height: 100px;
+        margin: 0px 100px 50px 100px;
+    }
+    
+    table{
+        width:1298px;
+        height:100px;
+        text-align: center;
+        font-family: 'Nanum Myeongjo';
+        
+    }
+    
+    td a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    td{
+        background-color:#6C7FBD;
+        color: #FFF;
+        transition-duration: 0.2s;
+    }
+    
+    td:hover{
+        background-color:#6EA0D4;
+    }
+
+
+    .section{
+        width:1298px;
+        height: 300px;
+        margin: 0px 100px 25px 100px;
+
+    }
+    
+    .artimg{
+        float: left;
+        width: 798px;
+        height: 250px;
+        margin: 24px;
+
+    }
+    
+    .article{
+        float: left;
+        width: 400px;
+        height: 250px;
+        margin: 22px;
+        border: 3px solid;
+        color: #164059;
+        font-size: 20px;
+        line-height:145%;
+        letter-spacing: 1px;
+        border-radius: 10px;
+        
+    }
+    
+    .article a{
+        text-decoration: none;
+    }
+    
+    .section2{
+        width:1298px;
+        margin: 0px 100px 25px 100px;
+
+    }
+    
+    .mbti{
+        width: 966px;
+        height: 700px;
+        margin: 24px 166px 24px 166px;
+        text-align: center;
+        color: #164059;
+        line-height:145%;
+        letter-spacing: 1px;
+    }
+    
+    .top{
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        font-size: 35px;
+        background-color:#6C7FBD;
+        width: 40px;
+        height: 40px;
+    }
+
+   
+    #footer{
+        width:1298px;
+        height:130px;
+        margin: 0px 100px 50px 100px;
+        text-align: center;
+    }
+    
+    .Finform {
+        float:left;
+        width:400px;
+        margin: 0px 120px; 0px; 100px;
+    }
+    
+    .copy {
+        float:left;
+        width:1298px;
+        height: 30px;
+        margin: 20px 0px 0px 0px;
+    }
+    

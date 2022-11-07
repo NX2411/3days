@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="Author" content="hayun">
+    <meta name="keywords" content="html5,css,js">
+    <meta name="description" content="기말 프로젝트-서브">
+    <title>작심삼일 취미 정보</title>
+    
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="css/first.css">
+
+<script>
+    function change(e){
+        var vidio = document.getElementById("vidio");
+        var img1 = document.getElementById("img1");
+        var img2 = document.getElementById("img2");
+        var article1 = document.getElementById("p2article1");
+        var article2 = document.getElementById("p2article2");
+        
+        if(e==1){
+            vidio.innerHTML = '<iframe width="998" height="422" src="https://www.youtube.com/embed/WOC719B-rw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+            img1.innerHTML = '<img src="img/coloringbook.jpg" width="200px" height="200px">';
+            img2.innerHTML = '<img src="img/calli.png" width="200px" height="200px">';
+            article1.innerHTML = '<h3>&nbsp;오일파스텔 컬러링북</h3><ul><li>책과 오일파스텔까지 약 41,000원</li><li>컬러테라피와 같은 효과를 준다!</li><li>스트레스 완화와 명상 효과!</li><li>예쁜 색감을 원한다면 유튜브 영상을 참고하자</li></ul>';
+            article2.innerHTML = '<H3>&nbsp;캘리그라피</H3><ul><li>클래스 기준 1시간당 22,000원 정도, 독학이면 무료!</li><li>붓과 펜만 있으면 누구든지 가능해!</li><li>스트레스 해소와 심리 치료 효과 존재</li><li>글씨를 쓴다기보단 디자인한다는 마음으로 쓰면 더 좋은 결과물을 얻을 수 있어</li></ul>';
+        }
+        else if(e==2){
+            vidio.innerHTML = '<iframe width="998" height="422" src="https://www.youtube.com/embed/F9AeG1Teyjg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+            img1.innerHTML = '<img src="img/edit.png" width="200px" height="200px">';
+            img2.innerHTML = '<img src="img/pic.PNG" width="200px" height="200px">';
+            article1.innerHTML = '<h3>&nbsp;영상편집</h3><ul><li>클래스 기준 월 41,900원</li><li>나의 일상을 VLOG로 만들어 간직하자!</li><li>내 취향대로 내 입맛에 맞게 편집하기</li><li>합의금 물기 싫다면 저작권 공부는 필수</li></ul>';
+            article2.innerHTML = '<h3>&nbsp;사진 찍기&보정</h3><ul><li>클래스 기준 월 41,900</li><li>내가 살고 있는 곳을 아름답게 담아내자</li><li>일상의 아름다움을 다시 느낄 수 있다!</li><li>원하는 색감대로 보정하고 싶다면 기초부터 차근히 밟자</li></ul>';
+        }
+        else if(e==3){
+            vidio.innerHTML = '<iframe width="998" height="422" src="https://www.youtube.com/embed/jBdQ65yHB_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+            img1.innerHTML = '<img src="img/cooking.png" width="200px" height="200px">';
+            img2.innerHTML = '<img src="img/cake.jpg" width="200px" height="200px">';
+            article1.innerHTML = '<h3>&nbsp;요리</h3><ul><li>클래스 기준 월 32,833원</li><li>입맛을 사로잡는 요리로 많은 사람들에게 사랑받자</li><li>제대로 된 정확한 레시피로 실패 없이 응용하기!</li><li>기초부터 차근차근, 어렵다면 백주부에게 도움을 청하자</li></ul>';
+            article2.innerHTML = '<h3>&nbsp;디자인 케이크</h3><ul><li>클래스 기준 월 43,740원</li><li>케이크로 완성하는 기억하고 싶은 색감과 문장</li><li>나만의 특별한 추억을 담아 케이크를 완성하자</li><li>조색 노하우, 메시지 등을 효과적으로 표현하자</li></ul>';
+            
+        }
+        else if(e==4){
+            vidio.innerHTML = '<iframe width="998" height="422" src="https://www.youtube.com/embed/4Hndt-mUMgk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+            img1.innerHTML = '<img src="img/yoga.PNG" width="200px" height="200px">';
+            img2.innerHTML = '<img src="img/exe.PNG" width="200px" height="200px">';
+            article1.innerHTML = '<h3>&nbsp;차크라 요가와 명상</h3><ul><li>클래스 기준 월 36,900원</li><li>내 마음을 들여다보고 내면의 우주를 만나는 시간!</li><li>진정한 자기와의 만남을 이루는 소중한 시간</li><li>심신의 평온을 찾아가요</li></ul>';
+            article2.innerHTML = '<h3>&nbsp;홈트레이닝</h3><ul><li>클래스 기준 월 42,900원</li><li>바른 자세와 바른 호흡법을 통해 건강해지자</li><li>집 안에서 편하게 즐기는 운동</li><li>하루 10분이면 충분, 꾸준한 운동 습관이 중요</li></ul>';
+        }
+        
+    }
+</script>    
+    
+</head>
+<body>
+    <div id="main">
+        <header>
+        <div id="header">
+            <div class="roundlogo">
+                <a href="index.html"><img src="img/roundlogo.gif"></a>
+            </div>
+            <div class="longlogo">
+                <a href="index.html"><img src="img/longlogo.gif"></a>
+            </div>
+        </div>
+        </header>
+        <nav>
+        <div id="navigation">
+            <a href="first.html"><div class="menu">취미 정보</div></a>
+            <a href="second.html"><div class="menu">취미 추천</div></a>
+            <a href="third.html"><div class="menu">취미 유행</div></a>
+            <a href="%EA%B3%BC%EC%A0%9C/ind.html"><div class="menu">과제</div></a>
+        </div>
+        </nav>
+        <section>
+        <div class="section">
+            <div class="article">
+                <img src="img/benner.jpg">
+            </div>
+        </div>
+        </section>
+        <section>
+        <div class="section1">
+            <article>
+            <div class="part1"> 
+                <div class="imgboxdiv" onclick="change(1)">
+                    <div class="imgdiv"><img src="img/calli.png" width="200px" height="200px"></div>
+                    <div class="imgdesdiv">공예 DIY</div>
+                </div>
+                <div class="imgboxdiv" onclick="change(2)">
+                    <div class="imgdiv"><img src="img/edit.png" width="200px" height="200px"></div>
+                    <div class="imgdesdiv">사진 영상편집</div>
+                </div>
+                <div class="imgboxdiv" onclick="change(3)">
+                    <div class="imgdiv"><img src="img/cooking.png" width="200px" height="200px"></div>
+                    <div class="imgdesdiv">요리</div>
+                </div>
+                <div class="imgboxdiv" onclick="change(4)">
+                    <div class="imgdiv"><img src="img/exe.PNG" width="200px" height="200px"></div>
+                    <div class="imgdesdiv">스포츠 피트니스</div>
+                </div>
+            </div>
+            </article>
+            <article>
+            <div class="part2">
+                <div id="vidio">
+                    <iframe width="998" height="422" src="https://www.youtube.com/embed/WOC719B-rw4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <div id="img1"><img src="img/coloringbook.jpg" width="200px" height="200px"></div>
+                    <div id="p2article1">
+                        <h3>&nbsp;오일파스텔 컬러링북</h3>
+                        <ul>
+                            <li>책과 오일파스텔까지 약 41,000원</li>
+                            <li>컬러테라피와 같은 효과를 준다!</li>
+                            <li>스트레스 완화와 명상 효과!</li>
+                            <li>예쁜 색감을 원한다면 유튜브 영상을 참고하자</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div id="img2"><img src="img/calli.png" width="200px" height="200px"></div>
+                    <div id="p2article2">
+                        <H3>&nbsp;캘리그라피</H3>
+                        <ul>
+                            <li>클래스 기준 1시간당 약 22,000원, 독학이면 무료!</li>
+                            <li>붓과 펜만 있으면 누구든지 가능!</li>
+                            <li>스트레스 해소와 심리 치료 효과 존재</li>
+                            <li>글씨를 쓴다기보단 디자인한다는 마음으로 쓰면 더 좋은 결과물을 얻을 수 있다</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </article>
+        </div>
+        </section>
+        <footer>
+        <div id="footer">
+            <div class="Finform">
+                <form>
+                    <fieldset>
+                    <legend>문의사항</legend>
+                    e-mail : sotae98@naver.com<br>
+                    <img src="img/kakotalk.jpg"
+                         width="25px" height="25px">
+                        TalkID : sotae98
+                    </fieldset>
+                </form>
+            </div>
+            <div class="Finform">
+                <form>
+                    <fieldset>
+                    <legend>notice</legend>
+                    본 사이트의 저작권은 명지전문대 컴퓨터 공학과
+                    <br> 2019081023 박하윤 학생에게 있습니다.
+                    </fieldset>
+                </form>
+            </div>
+            <div class="copy">
+                COPYRIGHTⓒ 2020 Park Ha Yun ALL RIGHTS RESERVED
+            </div>
+        </div>
+        </footer>
+    </div>
+
+</body>
+</html>

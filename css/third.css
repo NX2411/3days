@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+
+    #main {
+        width:1500px;
+        font-family: 'Nanum Myeongjo';
+    }
+    
+    #header{
+        width:1298px;
+        height: 200px;
+        margin: 50px 100px 20px 100px;
+    }
+    
+    .roundlogo{
+        float: left;
+    }
+    
+    .longlogo{
+        float: right;
+    }
+    
+    #navigation{
+        width:1298px;
+        height: 50px;
+        margin: 0px 100px 50px 100px;
+
+    }
+    
+    .menu{
+        width: 322.5px;
+        height: 50px;
+        float: left;
+        padding-top: 20px;
+        text-align: center;
+        border:1px solid;
+        background-color:#6C7FBD;
+        color:#FFF;
+        font-family: 'Nanum Myeongjo';
+        font-size: 20px;
+        transition-duration: 0.2s;
+    }
+    
+    .menu:hover {
+        background-color:#6EA0D4;
+    }
+    
+    .section1{
+        width:1298px;
+        height: 300px;
+        margin: 0px 100px 50px 100px;
+        
+    }
+    
+    .section2{
+        width:1298px;
+        height: 530px;
+        margin: 0px 100px 50px 100px;
+        
+    }
+    
+    .section3{
+        width:1298px;
+        height: 380px;
+        margin: 0px 100px 50px 100px;
+        
+    }
+    
+    .articleheader{
+        float:left;
+        width:1224px;
+        height: 50px;
+        margin: 14px 36px 14px 36px;
+    }
+    
+    .imgbox{
+        float:left;
+        width:250px;
+        height: 250px;
+        margin: 24px 36px 24px 36px;
+    }
+    
+    .img{
+        float:left;
+        width:250px;
+        height: 250px;
+    }
+    
+    .imgarticle{
+        float:left;
+        width:250px;
+        height: 110px;
+        border: 3px solid;
+        margin: 0px 34px 34px 34px;
+        color:#164059;
+        display:table;
+        transition-duration: 0.2s;
+    }
+    
+    .imgarticle:hover{
+        border-radius: 10px;
+        background-color: #164059;
+        color: white;
+    }
+    
+    .imgarticle p {
+        display:table-cell; 
+        text-align:center; 
+        vertical-align:middle;
+    }
+    
+    
+    .banner{
+        float: left;
+        width:  1198px;
+        height: 250px;
+        margin: 25px 50px 25px 50px;
+        font-size: 20px;
+        
+    }
+    
+    .article{
+        float: left;
+        width: 350px;
+        height: 250px;
+        margin: 25px 40px 25px 40px;
+        font-size: 20px;
+        
+    }
+
+    #footer{
+        width:1298px;
+        height:130px;
+        margin: 0px 100px 50px 100px;
+        text-align: center;
+    }
+    
+    .Finform {
+        float:left;
+        width:400px;
+        margin: 0px 120px; 0px; 100px;
+    }
+    
+    .copy {
+        float:left;
+        width:1298px;
+        height: 30px;
+        margin: 20px 0px 0px 0px;
+    }
+    

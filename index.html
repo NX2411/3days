@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="Author" content="hayun">
+    <meta name="keywords" content="html5,css,js">
+    <meta name="description" content="기말 프로젝트">
+    <title>작심삼일</title>
+    
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/basic.css">
+<script>
+    
+    function zoomIn(event) {
+        event.target.style.transform = "scale(1.1)";
+        event.target.style.zIndex = 1;
+        event.target.style.transition = "all 0.5s";
+    }
+
+    function zoomOut(event) {
+        event.target.style.transform = "scale(1)";
+        event.target.style.zIndex = 0;
+        event.target.style.transition = "all 0.5s";
+    }
+
+    
+    var index=0;
+    window.onload = function(){
+        slideShow();
+    }
+    
+    function slideShow() {
+        var i;
+        var x= document.getElementsByClassName("slide");
+        for(i=0; i<x.length; i++){
+            x[i].style.display="none";
+        }
+        
+        index++;
+        if(index > x.length){
+            index = 1;
+        }
+        
+        x[index-1].style.display = "block";
+        setTimeout(slideShow,4000);
+    }
+    
+</script>    
+    
+
+</head>
+<body>
+    <div id="main">
+        <header>
+        <div id="header">
+            <div class="roundlogo">
+                <a href="index.html"><img src="img/roundlogo.gif"></a>
+            </div>
+            <div class="longlogo">
+                <a href="index.html"><img src="img/longlogo.gif"></a>
+            </div>
+        </div>
+        </header>
+        <nav>
+        <div id="navigation">
+            <a href="first.html"><div class="menu">취미 정보</div></a>
+            <a href="second.html"><div class="menu">취미 추천</div></a>
+            <a href="third.html"><div class="menu">취미 유행</div></a>
+            <a href="%EA%B3%BC%EC%A0%9C/ind.html"><div class="menu">과제</div></a>
+        </div>
+        </nav>
+        <section>
+        <div class="section1">
+            <img class="slide" src="img/img1.jpg">
+            <img class="slide" src="img/img2.jpg">
+            <img class="slide" src="img/img3.jpg">
+            <img class="slide" src="img/img4.jpg">
+        </div>
+        </section>
+        <section>
+        <div class="section2">
+            <div>
+                <article>
+                <div class="artheader">이런 취미는 어떠세요?</div>
+                <div class="art1">
+                    <div class="imgbox">
+                        <a href="#">
+                            <img src="img/jewelpuzzle.jpg" class="img"
+                                onmouseover="zoomIn(event)"
+                                onmouseleave="zoomOut(event)">
+                        </a>
+                    </div>
+                    <div class="imgbox">
+                        <a href="#">
+                            <img src="img/punchniddle.jpg" class="img"
+                                onmouseover="zoomIn(event)"
+                                onmouseleave="zoomOut(event)">
+                        </a>
+                    </div>
+                    <div class="imgbox">
+                        <a href="#">
+                            <img src="img/scratchart.jpg" class="img"
+                                onmouseover="zoomIn(event)"
+                                onmouseleave="zoomOut(event)">
+                        </a>
+                    </div>
+                </div>
+                </article>
+            </div>
+        </div>
+        </section>
+        <section>
+        <div class="section">
+            <div>
+                <article>
+                <div class="articletitle">
+                    <img src="img/articletitleimg.jpg">
+                
+                </div>
+                <div class="article">
+                    <br><b>
+                    최근 주 52시간 근로제 시행 및 워라밸에 대한 인식이 높아지며 
+                    여유로운 시간을 갖고 취미를 즐기는 직장인들이 늘어나고 있습니다. 한 조사에 따르면, 
+                    취미가 있는 직장인 중 64.5%는 일상의 즐거움 행복감을 높이기 위해 취미활동을 한다고 응답했다고 하는데요.
+                    실제 취미가 있는 직장인일수록 일상 만족도가 높다고 합니다.<br><br>
+                    여러분은 일상의 활력소가 되어주는 취미가 있으신가요? 
+                    작심삼일이 여러분의 취미를 응원합니다!
+                    </b>
+                </div>
+                <div class="articleimg"><img src="img/articleimg.jpg"></div>
+                </article>
+            </div>
+        </div>
+        </section>
+        <footer>
+        <div id="footer">
+            <div class="Finform">
+                <form>
+                    <fieldset>
+                    <legend>문의사항</legend>
+                    e-mail : sotae98@naver.com<br>
+                    <img src="img/kakotalk.jpg"
+                         width="25px" height="25px">
+                        TalkID : sotae98
+                    </fieldset>
+                </form>
+            </div>
+            <div class="Finform">
+                <form>
+                    <fieldset>
+                    <legend>notice</legend>
+                    본 사이트의 저작권은 명지전문대 컴퓨터 공학과
+                    <br> 2019081023 박하윤 학생에게 있습니다.
+                    </fieldset>
+                </form>
+            </div>
+            <div class="copy">
+                COPYRIGHTⓒ 2020 Park Ha Yun ALL RIGHTS RESERVED
+            </div>
+        </div>
+        </footer>
+    </div>
+
+</body>
+</html>
