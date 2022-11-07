@@ -2,8 +2,9 @@
 
     #main {
         width:1500px;
-        
         font-family: 'Nanum Myeongjo';
+        justify-content: center;
+        align-items: center;
     }
     
     #header{
